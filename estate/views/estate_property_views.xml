@@ -66,11 +66,18 @@
         <field name="model">real.estate.property</field>
         <field name="arch" type="xml">
             <tree string="Real Estate Properties">
+                
+                <search string="Search Real Estate Properties">
+                    <field name="name" string="Name"/>
+                    <field name="postcode" string="Postcode"/>
+                    <field name="state" string="Status"/>
+                </search>
+
                 <field name="name"/>
                 <field name="date_availability"/>
                 <field name="expected_price"/>
                 <field name="selling_price"/>
-                <field name="bedrooms"/>>
+                <field name="bedrooms"/>
                 <field name="living_area"/>
                 <field name="active"/>
                 <field name="state"/>
