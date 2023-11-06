@@ -23,6 +23,7 @@ class RealEstateProperty(models.Model):
     garden_area = fields.Integer(string='Garden Area')
     garden_orientation = fields.Char(string='Garden Orientation')
     kitchen_type = fields.Char(string='Kitchen Type')
+    active = fields.Boolean(string='Active', default=True)
     
     
     def _compute_selling_price(self):
