@@ -3,5 +3,11 @@
         <field name="name">Estate Property</field>
         <field name="res_model">real.estate.property</field>
         <field name="view_mode">form</field>
+
+        <tree string="Estate">
+            <field name="name"/>
+            <field name="last_seen"/>
+        </tree>
+
     </record>
 </odoo>
