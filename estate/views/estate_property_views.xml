@@ -79,5 +79,20 @@
     </record>
 
 
+    <record id="view_real_estate_property_search" model="ir.ui.view">
+        <field name="name">real.estate.property.search</field>
+        <field name="model">real.estate.property</field>
+        <field name="arch" type="xml">
+            <search string="Search Real Estate Properties">
+                <field name="name" string="Name"/>
+                <field name="postcode" string="Postcode"/>
+                <field name="state" string="Status"/>
+                <!-- Add more fields for searching as needed -->
+            </search>
+        </field>
+    </record>
+
+
+
 	
 </odoo>
