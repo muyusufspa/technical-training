@@ -2,13 +2,6 @@
     <record id="estate_property_action" model="ir.actions.act_window">
         <field name="name">Estate Property</field>
         <field name="res_model">real.estate.property</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">form</field>
     </record>
-</odoo>
-
-<odoo>
-    <tree string="Tests">
-        <field name="name"/>
-        <field name="last_seen"/>
-    </tree>
 </odoo>
