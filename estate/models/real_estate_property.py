@@ -1,4 +1,6 @@
 from odoo import models, fields
+from datetime import timedelta
+
 
 class RealEstateProperty(models.Model):
     _name = 'real.estate.property'
