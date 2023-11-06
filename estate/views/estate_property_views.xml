@@ -13,20 +13,20 @@
             <form>
                 <sheet>
                     <group>
-                        <field name="name"/>
-                        <field name="description"/>
+                        <field name="name"/>                        
                         <field name="postcode"/>
                     </group>
                     <group>
                         <notebook name="Details">
-                            <page string="Details of Property">
-                                <group>
+                            <page string="Details of Property">                                
+                                <field name="description"/>
+                            </page>
+                            <group>
                                     <field name="expected_price"/>
                                     <field name="date_availability"/>
                                     <field name="selling_price"/>
                                 </group>
-
-                                <!-- <group>
+                                <group>
                                     <field name="bedrooms"/>
                                     <field name="living_area"/>
                                     <field name="facades"/>
@@ -37,8 +37,7 @@
                                     <field name="kitchen_type"/>
                                     <field name="active"/>
                                     <field name="state"/>
-                                </group> -->
-                            </page>
+                                </group>
 
                         </notebook>                        
                     </group>                    
