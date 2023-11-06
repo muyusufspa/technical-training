@@ -24,6 +24,13 @@ class RealEstateProperty(models.Model):
     garden_orientation = fields.Char(string='Garden Orientation')
     kitchen_type = fields.Char(string='Kitchen Type')
     active = fields.Boolean(string='Active', default=True)
+    state = fields.Selection(
+        [('new', 'New'), 
+         ('offer_received', 'Offer Received'), 
+         ('offer_accepted', 'Offer Accepted'), 
+         ('sold', 'Sold'), 
+         ('canceled', 'Canceled')], 
+        string='Status', default='new')
     
     
     def _compute_selling_price(self):
