@@ -6,6 +6,7 @@
     "data": [
         'security/ir.model.access.csv',
         'views/estate_property_views.xml',
+        'menues/estate_property_menu.xml',
     ],
     "installable": True,
     'license': 'LGPL-3',
