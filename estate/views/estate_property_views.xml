@@ -11,6 +11,8 @@
             <tree>
                 <field name="name"/>
                 <field name="state"/>
+                <field name="active"/>
             </tree>
         </field>
+    </record>
 </odoo>
