@@ -3,10 +3,6 @@
         <field name="name">Estate Property</field>
         <field name="res_model">real.estate.property</field>
         <field name="view_mode">form</field>
-    </record>
-    <record id="estate_tree" model="ir.ui.view">
-        <field name="name">estate.property.tree</field>
-        <field name="model">real.estate.property</field>
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
