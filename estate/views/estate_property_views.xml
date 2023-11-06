@@ -10,6 +10,7 @@
 			tree,form
 		</field>
 	</record>
+
 	<record id="estate_property_form_view" model="ir.ui.view">
 		<field name="name">
 			Estate Property Form View
@@ -60,6 +61,7 @@
 			</form>
 		</field>
 	</record>
+
 	<record id="estate_property_tree_view" model="ir.ui.view">
 		<field name="name">
 			Estate Property Tree View
