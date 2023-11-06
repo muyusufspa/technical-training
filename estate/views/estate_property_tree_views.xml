@@ -1,5 +1,5 @@
 <odoo>
-    <tree string="Tests">
+    <tree string="Estate">
         <field name="name"/>
         <field name="last_seen"/>
     </tree>
