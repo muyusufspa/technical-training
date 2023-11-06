@@ -19,23 +19,25 @@
                     </group>
                     <group>
                         <notebook name="Details">
-                            <field name="expected_price"/>
-                            <field name="date_availability"/>
-                            <field name="selling_price"/>
+                            <page>
+                                <field name="expected_price"/>
+                                <field name="date_availability"/>
+                                <field name="selling_price"/>
+                            </page>
                         </notebook>
-                    </group>
-                    <group>
-                        <field name="bedrooms"/>
-                        <field name="living_area"/>
-                        <field name="facades"/>
-                        <field name="garage"/>
-                        <field name="garden"/>
-                        <field name="garden_area"/>
-                        <field name="garden_orientation"/>
-                        <field name="kitchen_type"/>
-                        <field name="active"/>
-                        <field name="state"/>
-                    </group>
+                        <group>
+                            <field name="bedrooms"/>
+                            <field name="living_area"/>
+                            <field name="facades"/>
+                            <field name="garage"/>
+                            <field name="garden"/>
+                            <field name="garden_area"/>
+                            <field name="garden_orientation"/>
+                            <field name="kitchen_type"/>
+                            <field name="active"/>
+                            <field name="state"/>
+                        </group>
+                    </group>                    
                 </sheet>
             </form>
         </field>
