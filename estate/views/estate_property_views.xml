@@ -58,7 +58,7 @@
                     </page>
                     <page string="Sales info">
                         <group>
-                            <field name="salesman_id"/>
+                            <field name="salesman_id" context="{'default_is_salesman': True}" />
                             <field name="customer_id"/>
                         </group>
                     </page>
