@@ -34,6 +34,12 @@
                             <field name="facades"/>
                         </group>
                     </page>
+                    <page string="Sales info">
+                        <group>
+                            <field name="salesman_id"/>
+                            <field name="customer_id"/>
+                        </group>
+                    </page>
                 </notebook>
 
                 <!-- Additional Information Section -->
