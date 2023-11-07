@@ -9,6 +9,7 @@ class RealEstateProperty(models.Model):
     name = fields.Char(string='Name', required=True)
     description = fields.Text(string='Description')
     postcode = fields.Char(string='Postcode')
+    property_type_id = fields.Many2one('estate.property.type', string='Property Type')
     # Set the default date to 3 months from today
     date_availability = fields.Date(string='Availability Date', default=lambda self: fields.Date.today() + timedelta(days=90))
     expected_price = fields.Float(string='Expected Price')
