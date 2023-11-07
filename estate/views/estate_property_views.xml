@@ -16,6 +16,7 @@
                     <h1>General Information</h1>
                 </header>
                 <group>
+                    <field name="property_type_id"/>
                     <field name="name"/>
                     <field name="description" widget="text"/>
                     <field name="postcode"/>
