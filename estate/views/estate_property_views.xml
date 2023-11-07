@@ -90,7 +90,7 @@
                 <!-- Add more fields for searching as needed -->
                 <filter name="my_filter" string="My Filter" domain="[('active','=',True)]"/>
                     <group expand="0" string="Group By">
-                        <filter string="postcode" name="group_by_postcode" context="{'group_by': 'postcode'}"/>
+                        <filter string="Post" name="postcode" context="{'group_by': 'postcode'}"/>
                     </group>
                 </filter>
             </search>
