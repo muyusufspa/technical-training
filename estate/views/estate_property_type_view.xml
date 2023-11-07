@@ -17,8 +17,6 @@
                 </header>
                 <group>
                     <field name="name"/>
-                    <field name="description" widget="text"/>
-                    <field name="active"/>
                 </group>
             </form>
         </field>
@@ -30,8 +28,6 @@
         <field name="arch" type="xml">
             <tree string="Estate Property Types">
                 <field name="name"/>
-                <field name="description" widget="text"/>
-                <field name="active"/>
             </tree>
         </field>
     </record>
