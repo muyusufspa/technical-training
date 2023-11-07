@@ -20,6 +20,8 @@
                     <field name="description" widget="text"/>
                     <field name="active"/>
                 </group>
+            </form>
+        </field>
     </record>
 
     <record id="view_estate_property_type_tree" model="ir.ui.view">
