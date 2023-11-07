@@ -45,7 +45,6 @@
                 <field name="name" string="Name"/>
                 <field name="postcode" string="Postcode"/>
                 <field name="state" string="Status"/>
-                <!-- Add more fields for searching as needed -->
                 <filter string="My Filter" name="active" domain="[('active','=',True)]"/>
                 <group expand="0" string="Group By">
                     <filter string="Postcode" name="postcode" context="{'group_by': 'postcode'}"/>
