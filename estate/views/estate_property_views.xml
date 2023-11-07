@@ -33,6 +33,28 @@
                             <field name="living_area"/>
                             <field name="facades"/>
                         </group>
+
+                        <!-- Additional Information Section -->
+                        <header>
+                            <h2>Additional Information</h2>
+                        </header>
+                        <group>
+                            <field name="garage"/>
+                            <field name="garden"/>
+                            <field name="garden_area"/>
+                            <field name="garden_orientation"/>
+                            <field name="kitchen_type"/>
+                        </group>
+
+                        <!-- Status and Activation Section -->
+                        <header>
+                            <h2>Status and Activation</h2>
+                        </header>
+                        <group>
+                            <field name="active"/>
+                            <field name="state"/>
+                        </group>
+
                     </page>
                     <page string="Sales info">
                         <group>
@@ -41,27 +63,6 @@
                         </group>
                     </page>
                 </notebook>
-
-                <!-- Additional Information Section -->
-                <header>
-                    <h2>Additional Information</h2>
-                </header>
-                <group>
-                    <field name="garage"/>
-                    <field name="garden"/>
-                    <field name="garden_area"/>
-                    <field name="garden_orientation"/>
-                    <field name="kitchen_type"/>
-                </group>
-
-                <!-- Status and Activation Section -->
-                <header>
-                    <h2>Status and Activation</h2>
-                </header>
-                <group>
-                    <field name="active"/>
-                    <field name="state"/>
-                </group>
             </form>
         </field>
     </record>
