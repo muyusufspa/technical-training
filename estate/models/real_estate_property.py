@@ -31,6 +31,8 @@ class RealEstateProperty(models.Model):
          ('sold', 'Sold'), 
          ('canceled', 'Canceled')], 
         string='Status', default='new')
+    salesman_id = fields.Many@one('res.partner', string='Salesman', domain=[('is_salesman', '=', True)])
+    customer_id = fields.Many@one('res.partner', string='Customer', domain=[('is_salesman', '=', False)])
     
     
     def _compute_selling_price(self):
